@@ -5,6 +5,8 @@ const c = 2
 
 if(a > b) {
     console.log("A lebih besar daripada B")
+} else {
+    console.log("B lebih besar daripada A")
 }
 
 if(a % 2 === 0) {
