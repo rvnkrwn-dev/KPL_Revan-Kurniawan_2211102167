@@ -20,6 +20,9 @@
             padding: 15px;
             text-align: center;
         }
+        #title-web {
+            color: blue;
+        }
         nav ul {
             list-style: none;
             padding: 0;
@@ -27,6 +30,10 @@
         nav ul li {
             display: inline;
             margin: 0 15px;
+        }
+        .nav-list {
+            padding: 20px;
+            background: black;
         }
         nav ul li a {
             color: #fff;
@@ -62,14 +69,14 @@
     
     <!-- Header: Bagian kepala halaman, biasanya berisi judul dan navigasi -->
     <header>
-        <h1>Judul Website</h1> <!-- Judul utama dari website -->
+        <h1 id="title-web">Judul Website</h1> <!-- Judul utama dari website -->
         
         <!-- Nav: Navigasi utama website -->
         <nav>
             <ul> <!-- Daftar menu navigasi -->
-                <li><a href="#beranda">Beranda</a></li> <!-- Link menuju bagian Beranda -->
-                <li><a href="#tentang">Tentang</a></li> <!-- Link menuju bagian Tentang -->
-                <li><a href="#kontak">Kontak</a></li> <!-- Link menuju bagian Kontak -->
+                <li class="nav-list"><a href="#beranda">Beranda</a></li> <!-- Link menuju bagian Beranda -->
+                <li class="nav-list"><a href="#tentang">Tentang</a></li> <!-- Link menuju bagian Tentang -->
+                <li class="nav-list"><a href="#kontak">Kontak</a></li> <!-- Link menuju bagian Kontak -->
             </ul>
         </nav>
     </header>

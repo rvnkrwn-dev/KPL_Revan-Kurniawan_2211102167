@@ -196,5 +196,6 @@ window.onload = function() {
 ## 📚 Referensi
 - [MDN Web Docs - HTML Semantik](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 - [MDN Web Docs - HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [MDN WEB Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
