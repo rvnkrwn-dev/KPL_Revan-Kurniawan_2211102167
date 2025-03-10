@@ -25,7 +25,7 @@ class Employee extends Person {
 
 // Class Manager (Polymorphism & Encapsulation)
 class Manager extends Employee {
-    #bonus;
+    #bonus; // Properti bersifat private
     
     constructor(name, age, jobTitle, salary, bonus) {
         super(name, age, jobTitle, salary);
@@ -62,7 +62,6 @@ class ITDepartment extends Department {
 }
 
 // Example
-
 const employee1 = new Employee("Alice", 25, "Software Engineer", 5000);
 employee1.introduce();
 
