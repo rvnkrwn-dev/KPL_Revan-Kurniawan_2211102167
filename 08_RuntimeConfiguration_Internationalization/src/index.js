@@ -1,4 +1,3 @@
-import 'dotenv/config'; // load env vars
 import i18next from 'i18next';
 import Backend from 'i18next-fs-backend';
 import { config } from '../config/config.js';
