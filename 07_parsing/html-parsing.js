@@ -1,5 +1,8 @@
-import cheerio from 'cheerio';
+// Import cheerio untuk HTML parsing
+import { load } from 'cheerio';
 
+
+// Contoh HTML sederhana
 const html = `
 <html>
   <body>
@@ -12,10 +15,13 @@ const html = `
 </html>
 `;
 
-const $ = cheerio.load(html);
+// Load HTML ke dalam cheerio (seperti jQuery di Node.js)
+const $ = load(html);
 
+// Mengambil teks dari elemen <h1>
 console.log('Heading:', $('h1').text());
 
+// Looping semua <li> dan menampilkan teksnya
 $('li').each((i, el) => {
   console.log(`List ${i + 1}:`, $(el).text());
 });
